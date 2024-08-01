@@ -1,0 +1,499 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.Font14-700{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+nav{
+    width: 100%;
+    padding-top: 10px;
+    gap: 700px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
+}
+
+ul{
+    list-style: none;
+    top: 0;
+    gap: 30px;
+}
+
+.signIn{
+    text-decoration: none;
+}
+
+.signUp{
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+}
+
+.bg{
+    width: 100%;
+    height: 45vh;
+    background-image: url("https://devices.netflix.com/images/header-2560-2.jpg");
+    background-size: 100% 100%;
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+}
+
+.mainHeading{
+    font-size: 59px;
+    font-weight: 700px;
+    text-align: center;
+    color: white;
+}
+
+/* .way1{
+    height: 300px;
+    width: 100px;
+    background-image: url("https://devices.netflix.com/images/icons/media-player.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+} */
+
+.trial{
+   justify-content:space-between;  
+   /* height: 150px; */
+}
+
+.ways{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    /* height: 150px;  */
+    /* border-right: 0.1px solid rgb(205, 202, 202); */
+    cursor: pointer;
+    padding: 20px 0px;
+    position: relative;
+    border-bottom: 20px solid rgb(229, 9, 20);
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 90px;
+    width: 200px; */
+}
+
+.ways > span{
+    font-size: 13px;
+    font-weight: 700;
+    color:#555555
+    
+}
+
+.ways::after {
+    width: 0.4px;
+    content: ' ';
+    height: 100%;
+    position: absolute;
+    background: grey;
+    right: 0;
+    top: 0;
+}
+
+.redLine{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(229, 9, 20);
+}
+
+.boxx{
+    width: 100vw;
+    
+    /* height: 60vh; */
+}
+
+.changes{
+    width: 100%; 
+    height: 400px; 
+    background-image: url("/Assets/images/blurBG.jpg");
+    /* background-size: max(1200px,100vw); */
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.RightSideDiv{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* footer part */
+.footer-para{
+    flex-direction: column;
+    padding: 30px 0;
+    font-size: 12px;
+    color: #555;
+    gap: 8px;
+}
+
+.cdiv>ul>li{
+    display: inline-block;
+    border-right: 1px solid #aaa;
+    padding-right: 8px;
+    font-size: 14px;
+    margin: 5px 0px;
+    color: #555; 
+}
+
+.cdiv>ul>.last{
+    border: none;
+}
+
+.cdiv>h5{
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    width: 1000px;
+    margin: auto;
+}
+
+.cdiv>ul>li>a{
+    text-decoration: none;
+    color: #888;
+    font-size: 14px;
+}
+
+.cdiv>ul>li>a:hover{
+    text-decoration: underline;
+}
+
+.last{
+    padding-right: 2px solid red;
+}
+
+/* copyright part */
+.copyright{
+    font-size: 12px;
+}
+
+.copyright>ul>li{
+    border: none;
+}
+
+.copyright>ul>li>a{
+    font-size: 12px;
+    display: inline;
+}
+
+.copyright>p{
+    font-size: 12px;
+    color: #5c5c5c;
+    font-weight: 400;
+}
+
+.copyright-part{
+    width: 1000px;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.flag>img{
+    border-radius: 2px;
+    position: relative;
+    right: -100px;
+}
+
+/* changes  */
+
+/* change 1 */
+.changingDiv{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.leftPart{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.leftPart>h2{
+    border-left: 2px solid #e50914;
+    padding-left: 20px;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.leftPart>p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.rightPart{
+    width: 300px;
+    height: 400px;
+    /* display: flex; */
+}
+
+.parts{
+    width: 147px;
+    height: 200px;
+    display: inline;
+    float: left;
+    background-color: black;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.part1{
+    background-image: url("/Assets/images/appletv_rev.webp"); 
+}
+.part2{
+    background-image: url("/Assets/images/g-chromecast.webp");
+}
+.part3{
+    background-image: url("/Assets/images/portal-from-facebook.webp");
+}
+
+
+/* change 2 */
+.netflixTV{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.netflixTV>span>img{
+    width: 150px;
+    height: 100px;
+}
+
+
+.detail>p{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.detail>button{
+    font-size: 11px;
+    font-weight: 600;
+    border: 2px solid #e50914;
+    border-radius: 4px;
+    padding: 6px 10px;
+    background-color: transparent;
+    color: #e50914;
+    width: 150px;
+    margin-top: 10px;
+    letter-spacing: 1.9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail>button>svg{
+    padding-left: 5px;
+}
+
+.srightPart{
+    width: 300px;
+    height: 400px;
+}
+
+.srPart{
+    width: 147px;
+    height: 80px;
+    display: inline;
+    float: left;
+    background-color: black;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+.srPart1{
+    background-image: url("/Assets/images/hisenselogo.webp");
+}
+.srPart2{
+    background-image: url("/Assets/images/lg-logo.webp");
+}
+.srPart3{
+    background-image: url("/Assets/images/panasonic_logo_png.webp");
+}
+.srPart4{
+    background-image: url("/Assets/images/philips_transparent_logo.webp");
+}
+.srPart5{
+    background-image: url("/Assets/images/samsung.webp");
+}
+.srPart6{
+    background-image: url("/Assets/images/sharp-light.webp");
+}
+.srPart7{
+    background-image: url("/Assets/images/sony-light.webp");
+}
+.srPart8{
+    background-image: url("/Assets/images/toshiba.webp");
+}
+.srPart9{
+    background-image: url("/Assets/images/xiaomi-logo.webp");
+}
+
+
+/* change 3 */
+.trightPart{
+    width: 300px;
+    height: 400px;
+}
+
+.trPart{
+    width: 147px;
+    height: 133px;
+    display: inline;
+    float: left;
+    background-color: black;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+.trPart3{
+    background-color: black;
+    /* height: 133px;
+    width: 147px; */
+}
+
+.trPart1{
+    background-image: url("/Assets/images/ps3.webp");
+}
+.trPart2{
+    background-image: url("/Assets/images/ps4.webp");
+}
+.trPart3{
+    background-image: url("/Assets/images/ps5.webp");
+    background-size: 271px 56px;
+}
+.trPart4{
+    background-image: url("/Assets/images/xbox360.webp");
+}
+.trPart5{
+    background-image: url("/Assets/images/xboxone.webp");
+}
+.trPart6{
+    background-image: url("/Assets/images/xboxseriesxs.png");
+}
+
+/* change 4 */
+
+/* change 5 */
+.fifrightPart{
+    width: 300px;
+    height: 400px;
+}
+
+.fifrPart{
+    width: 147px;
+    height: 200px;
+    display: inline;
+    float: left;
+    background-color: black;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+.fifrPart1{
+    background-image: url("/Assets/images/lg-logo.webp");
+}
+.fifrPart2{
+    background-image: url("/Assets/images/panasonic_logo_png.webp");
+}
+.fifrPart3{
+    background-image: url("/Assets/images/samsung.webp");
+}
+.fifrPart4{
+    background-image: url("/Assets/images/sony-light.webp");
+}
+
+/* chnage 6 */
+.sixrightPart{
+    width: 300px;
+    height: 400px;
+}
+
+.sixrPart{
+    width: 147px;
+    height: 200px;
+    display: inline;
+    float: left;
+    background-color: black;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+.sixrPart1{
+    background-image: url("/Assets/images/android.webp");
+}
+.sixrPart2{
+    background-image: url("/Assets/images/apple_logo_360.webp");
+}
+.sixrPart3{
+    background-image: url("/Assets/images/windows-phone.webp");
+}
+.sixrPart4{
+    background-image: url("");
+}
+
+.hidden{
+    display: none;
+}
+
+/* change 7 */
+
+.active{
+    border-bottom: transparent;
+}
